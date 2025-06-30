@@ -1,0 +1,1322 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+    margin: 0 ;
+    padding: 0 ;
+}
+h1{
+    font-size: 2em !important;
+}
+h2{
+    font-size:  1.5em !important;
+}
+h3{
+    font-size: 1.17 !important;
+}
+h4{
+    font-size: 1em !important;
+}
+h5{
+    font-size: 0.83em !important;
+
+}
+h6{
+    font-size: 0.67em !important;
+}
+p{
+    font-size: 16px !important;
+}
+/* h1{
+    font-size: 34px;
+}
+
+ h2 {
+    font-size: 30px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 18px;
+} */
+.navigation{
+    background-color: rgb(85, 114, 60);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 55px;
+    align-items: cente;
+}
+.nav1{
+    display: flex;
+}
+.nav1 :hover{
+    color:yellow;
+}
+.facebook i{
+    color: white;
+    font-size: 15px;
+    padding: 17px;
+}
+.nav2{
+   display: flex; 
+   
+}
+.nav2 :hover{
+    color: #7cac36;
+}
+.message{
+    display: flex;
+}
+.head1{
+  padding-top: 15px;
+  color:#ffffff;
+}
+.message i{
+    color: white;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+.cart{
+    display: flex;
+}
+.cart i{
+    color: white;
+    font-size: 15px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.user{
+    display: flex;
+}
+.user i{
+    color: white;
+    font-size: 15px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.navv{
+    background-color:rgb(120, 160, 85);
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 65px;
+}
+.navv1{
+    display: flex;
+}
+
+.head2{
+    color: #ffffff;
+    padding: 35px 35px 35px 0;
+}
+.head3{
+    padding-left: 5px;
+}
+.head4{
+    color:#f4eeee;
+    padding-top: 10px;
+}
+.navv2{
+    display: flex;
+    margin-top: 28px;
+}
+.phone{
+    display: flex;
+    color: #ffffff;
+    font-size: 18px;
+    padding-left: 80px;
+}
+.phone2{
+    display: flex;
+    color: #ffffff;
+    font-size: 18px;
+    padding-left: 50px;
+}
+.phone3{
+    display: flex;
+    color: #ffffff;
+    font-size: 18px;
+    
+}
+.ii{
+   padding: 0 70px 0 0;
+}
+.jj{
+    padding: 0 70px 0 0;
+}
+.navvv{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.navvv1{
+    display: flex;
+}
+.navvv1 :hover{
+    color: #7cac36;
+}
+.home{
+    color: #666666;
+    padding: 20px 40px 20px 0;
+}
+.navvv2{
+    display: flex;
+}
+.aa2{
+    padding-top: 15px;
+    padding-left: 17px;
+}
+.carousel-caption{
+    top: 30%;
+    z-index: 1;
+} 
+.carousel-inner{
+position: relative;
+z-index: 0;
+}
+.carousel-inner::after{
+    content: " ";
+    height: 100%;
+    width: 100%;
+    background-color:rgba(42, 42, 42, 0.7);
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+.hh{
+    margin-bottom: 20px;
+}
+.hhh{
+    margin-bottom: 20px;
+    width: 700px;
+    margin-left: 180px;
+}
+.hhh h3{
+    font-size: 40px;
+}
+.hhhh{
+  
+  width: 800px;
+  margin-left: 100px;
+}
+.hhhhh{
+    
+    background-color:white;
+    color: #aaaaaa;
+    padding: 10px 5px 10px 5px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.aa i{
+    color: black;
+    font-size: 23px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+.aaa i{
+    color: black;
+    font-size: 23px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-left: 25px;   
+}
+.img3 img{
+    width: 18px;
+}
+.aboutus{
+    background-color:#F6F4EC;
+    display: flex;
+    padding-bottom: 100px;
+}
+.about{
+    padding-left: 60px;
+    padding-top: 250px;
+}
+.about2{
+    padding-left: 10px;
+    color: #666666;
+    border-left: 5px solid #666666;
+    
+}
+.about3{
+    padding-left: 190px;
+}
+.healthy{
+    width: 530px;
+    line-height: 1.2;
+    padding-top: 30px;
+}
+.healthy h3{
+    font-size: 39px;
+}
+.about3{
+    padding-top: 300px;
+}
+.we{
+    width: 670px;
+    font-size: 18px;
+}
+.our{
+    width: 670px;
+    font-size: 18px;
+    padding-top: 30px;
+}
+.more{
+    padding: 40px 0 0 0;
+}
+.more2{
+    padding: 10px 5px 10px 20px;
+    background-color: #7cac36;
+    width: 160px;
+    color: white;
+}
+.more2 h3 {
+    font-size: 16px;
+}
+.more :hover{
+    color:aqua;
+}
+.oooo{
+    position: absolute;
+    height: 700px;
+    top: 400px;
+}
+.img3{
+    position: absolute;
+}
+.wowrice{
+    position:absolute;
+    bottom: -0px;
+    display: flex;
+}
+.rice{
+    background-color: white;
+    width: 300px;
+    height: 230px;
+    margin-left: 30px;
+}
+.rice2{
+    font-size: 25px;
+    width: 200px;
+    height: 10px;
+    padding: 30px 0 0 20px;
+}
+
+.rice3{
+    width: 250px;
+    padding: 90px 0 0 20px;
+}
+.rice3 h3{
+    font-size: 16px;
+}
+.vegetables{
+    background-color: white;
+    width: 300px;
+    height: 230px;
+}
+.vegetables2{
+    font-size: 25px;
+    width: 200px;
+    height: 10px;
+    padding: 30px 0 0 20px;
+}
+.vegetables3{
+    width: 250px;
+    padding: 90px 0 0 20px;
+}
+.vegetables3 h3{
+    font-size: 16px;
+}
+.high{
+    background-color: white;
+    width: 300px;
+    height: 230px;
+    margin-right: 5px;   
+}
+.high2{
+    font-size: 25px;
+    width: 200px;
+    height: 10px;
+    padding: 30px 0 0 20px;
+}
+.high3{
+    width: 250px;
+    padding: 90px 0 0 20px;
+}
+.high3 h3{
+    font-size: 16px;
+}
+.questions{
+    background-image:url("wheat.jpg");
+    width: 500px;
+    height: 230px;
+    margin-left:40px;
+    background-repeat: no-repeat;
+    background-position: -777px -322px;
+    position: relative;
+    z-index: 2;
+}
+.questions::after{
+   content: " ";
+   height: 100%;
+   width: 100%;
+   background-color:rgba(109, 140, 84, 0.9);
+   position: absolute;
+   z-index: -1;
+   top: 0;
+}
+.questionss{
+    position: relative;
+}
+.sales3{
+    color: white;
+}
+.sales4{
+    color: white;
+}
+.questions2{
+    font-size: 25px;
+    width: 450px;
+    height: 10px;
+    padding: 30px 0 0 20px;
+}
+.questions3{
+    padding: 120px 0 0 20px;
+    display: flex;
+}
+.questions3 i{
+    font-size: 20px;
+    margin: 8px 0 0px 170px;
+}
+
+.objective{
+    position: relative;
+    height: 1900px;
+}
+.wheatimg{
+    position: absolute;
+    top: -150px;
+    margin-left: 55px;
+}
+.wheatimg img{
+    height: 400px;
+    width: 650px;
+}
+.facebook2 i{
+    position: absolute;
+    color:#7cac36;
+    bottom: 140px;
+    right: 270px;
+    font-size: 30px;
+    background-color:white;
+    border-radius: 50%;
+    padding: 50px;
+}
+.agriculture{
+    position: absolute;
+}
+.industry{
+    width: 700px;
+    margin-left:auto;
+    font-size: 18px;
+    padding-top: 50px;
+}
+.dalmer{
+    display: flex;
+    padding-top: 35px;
+    align-self: start;
+    justify-content: end;
+    padding-right:150px;
+}
+.ceo{
+    font-size: 18px;
+    color: #7cac36;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.bora{
+    text-align: end;
+}
+.nikhilll{
+    position: absolute;
+    top: 25%;
+    right: 30%;
+}
+.type{
+color: #7cac36;
+text-align: center;
+font-size: 18px;
+}
+.ours{
+font-size: 30px;
+text-align: center;
+padding-top: 18px;
+}
+.one{
+width: 750px;
+
+padding-left: 50px;
+padding-top: 22px;
+color:dimgray;
+}
+.one h3{
+    font-size: 18px;
+}
+.p11 img{
+  height: 300px;
+}
+.p11{
+    padding-left:50px;
+}
+.each{
+padding: 25px 0 0 150px;
+color:dimgrey;
+}
+.premium{
+  padding-left: 90px;
+}
+.items{
+padding-left: 130px;
+color:silver
+}
+.add1{
+    display: flex;
+    padding-top: 15px;
+}
+.add2{
+    border: 1px solid silver;
+    width: 70px;
+    letter-spacing: 4px;
+    margin-left: 90px;
+    padding: 5px;
+}
+.substract{
+    width: 130px;
+    margin-left: 20px;
+    border: 1px solid silver;
+    padding: 10px;
+}
+.pp{
+  display: flex;
+  margin-top: 80px;
+}
+.bad{
+    background-color:#F6F4EC;
+    padding: 90px 0 0 50px  ;
+    display: flex;
+    position: relative;
+}
+.bad::after{
+    content: " ";
+    height: 100%;
+    width: 100%;
+    background-color:rgba(42, 42, 42, 0.7);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.services{
+    padding-left: 10px;
+    /* border-left: 5px solid white; */
+    color: #7cac36;
+    position: relative;
+}
+.services::before{
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top: px;
+    height: 20px;
+    width: 5px;
+    background-color: silver;
+}
+.services h3{
+    font-size: 18px;
+}
+.always{
+    width: 400px;
+    font-size: 36px;
+    padding-top: 20px;
+    color: white;
+}
+.any{
+    width: 500px;
+    padding-top: 30px;
+    color: white;
+}
+.any h3{
+    font-size: 20px;
+}
+.free{
+    background-color:#7cac36;
+    width: 200px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.free h3{
+    font-size: 20px;
+}
+.free i{
+    padding: 5px 10px 0 5px;
+}
+.frbee{
+    display: flex;
+}
+.freee :hover{
+    color: aqua;
+}
+.bad{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -150px;
+    padding-bottom: 190px;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
+.bad22{
+    background-color:white;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.drive{
+margin: 40px 0 0 50px;
+}
+.bad2{
+    display: flex;
+}
+.b1{
+    padding: 50px 0 0 40px;
+}
+.b2{
+    width: 400px;
+    padding: 20px 0 40px 40px;
+}
+.g img{
+    height: 900px;
+    width: 600px;
+}
+.grass{
+    display: flex;
+    width: 1400px;
+    background-color: white;
+    position: relative;
+    bottom: 190px;
+    margin-left: 55px;
+    margin-top: 100px;
+}
+.ll{
+    display: flex;
+}
+.firstname2{
+    padding: 40px 0 0 60px;
+}
+.secondname2{
+    padding: 40px 0 0 60px;
+}
+.feed1 input{
+  padding: 20px 150px 20px 0;
+}
+.firstname{
+    padding-bottom: 20px;
+}
+.firstname h3{
+    font-size: 18px;
+}
+.secondname{
+    padding-bottom: 20px;
+}
+.secondname h3{
+    font-size: 18px;
+}
+.fourthname2{
+    padding: 30px 0 0 60px;
+}
+.fourthname h3{
+    font-size: 18px;
+}
+.feed3 input{
+ height: 320px;
+ width: 700px;
+}
+.fifthname2{
+    padding: 20px 0 0px 60px;
+}
+.fifthname h3{
+    font-size: 18px;
+}
+.fifthname{
+    padding-bottom: 10px;
+}
+.feed4 input{
+   height: 50px;
+   width: 700px;
+}
+.feed5{
+    padding: 30px 0 0 60px;
+    background-color: #7cac36;
+    padding: 20px 0 20px 0;
+   color:white;
+   width: 150px;
+   text-align: center;
+}
+.feed55{
+    padding: 40px 0 0 60px;
+}
+.feed55 :hover{
+    color: aqua;
+}
+.thousand{
+    color: #7cac36;
+  text-align: center;
+  padding-right: 80px;
+}
+.thousand h3{
+    font-size: 16px;
+}
+.satisfied{
+ text-align: center;
+ padding-right: 80px;
+}
+.satisfied h3{
+    font-size: 30px;
+}
+.anim{
+    width: 1500px;
+    padding: 70px 0 0 120px;
+    line-height: 1.5;
+}
+.anim h3{
+    font-size: 23px;
+}
+.mary img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; 
+}
+.mary2{
+ text-align: center;
+ padding-right: 80px;
+ padding-top: 70px;
+}
+.lane{
+  text-align: center;
+    padding-right: 60px;
+    padding-top: 10px;
+}
+.customers{
+    background-color: #f7f6f1;
+    padding-bottom: 100px;
+}
+.latest{
+   text-align: center;
+  padding-top: 50px;
+    color: #7cac36;
+    padding-right: 80px;
+}
+.news{
+    text-align: center;
+    padding: 20px 90px 0 0;
+}
+.strengthen{
+    width: 590px;
+    padding: 30px 0 50px 0px;
+    color: slategrey;
+    margin: 0 auto;
+}
+.strengthen h3{
+    font-size: 16px;
+}
+.social{
+    padding: 0 0 0 45px;
+}
+.social3{
+    padding: 0 0 0 45px;
+}
+.social3 img{
+    height: 350px;
+    width: 450px;
+}
+.social img{
+    height: 350px;
+    width: 450px;
+}
+.protection{
+    width: 370px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.protection h3{
+    font-size: 20px;
+}
+.protection2{
+    padding-left: 40px;
+    padding-top: 10px;
+    color: #666666;
+}
+.protection3{
+    width: 400px;
+    padding: 30px 0 0 30px;
+    color: darkgray;
+}
+.protection3 h3{
+    font-size: 20px;
+}
+.integrating{
+    display: flex;
+}
+.update{
+    padding-bottom: 150px;
+}
+.footer{
+    background-color: #334b36;
+    background-image: url('footer-bg-image.png');
+    background-repeat: no-repeat;
+    background-position: 900px 90px;
+    
+}
+.agru{
+    font-size: 36px;
+    padding: 80px 0 0 50px;
+    color: white;
+}
+.innovative{
+    width: 320px;
+    padding: 20px 0 0 50px ;
+    color: rgb(202, 191, 191);
+}
+.following{
+    display: flex;
+    padding: 20px 0 0 30px;
+}
+.facebook1 i:hover{
+    color: white;
+    border-bottom: 1px solid;
+    
+}
+.facebook1{
+    font-size:15px;
+    border-radius: 50%; 
+    background-color:#aaaaaa;
+    padding: 5px 10px 5px 10px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+.nikhil{
+    display: flex;
+}
+.khil{
+    display: flex;
+}
+.company{
+    padding: 60px 50px 0 50px;
+}
+.company2{
+    color: white;
+    padding-bottom: 20px;
+}
+.company2 h2{
+    font-size: 20px;
+}
+.company3{
+    padding: 10px 0 0px 0;
+    color:aliceblue;
+    margin-bottom: 10px;
+}
+.company3 h3{
+    font-size: 16px;
+}
+.company3:hover{
+    color: #7cac36;
+    border-bottom: 0.5px solid;
+}
+.templaza{
+    display: flex;
+    padding-bottom: 40px;
+    border-top: 0.5px solid grey;
+    padding-top: 30px; 
+    margin: 70px 40px 0 40px;
+}
+.tem2 h3{
+    font-size: 18px;
+}
+.tem2{
+    padding-right: 20px;
+}
+.tem3{
+    display: flex;
+    margin-left: 70px;
+    margin-left: auto;
+}
+.tem3 :hover{
+    color: #7cac36;
+}
+.tem{
+    padding: 00px 0 0px;
+    color: white;
+}
+.tem2 span:hover{
+    color: #7cac36; 
+}
+.term{
+    color: white;
+    padding: 0 30px 0 0;
+}
+.term h3{
+    font-size: 16px;
+}
+@media only screen and (max-width : 1500px)
+   {
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        { 
+            display: none;
+        }
+        .rice,.vegetables{
+            width: 250px;
+        }
+        .we,.our{
+            width: 600px;
+        }
+        .industry{
+            width: 678px;
+        }
+        .g img{
+            width: 350px;
+        }
+        .grass,.anim{
+            width: auto;
+        }
+        .social img,.social3 img{
+            width: 380px;
+        }
+    }
+@media only screen and (max-width : 1200px)
+   {
+        { 
+            display: none;
+        }
+        .oooo{
+            top: 250px;
+        }
+        .rice,.vegetables,.high{
+            width: 250px;
+        }
+        .questions2{
+            width: 350px;
+        }
+        .questions{
+            width: auto;
+        }
+        .sales4{
+            margin-top: 20px;
+        }
+        .about3{
+            padding-left: 110px;
+        }
+        .we,.our{
+            width: 460px;
+        }
+        .healthy h3{
+            font-size: 46px;
+        }
+        .wheatimg img{
+            width: 550px;
+        }
+        .industry{
+            width: 520px;
+            margin-left: 657px;
+        }
+        .dalmer{
+            padding-right: 200px;
+        }
+        .nikhilll{
+            right: 29%;
+        }
+        .one{
+            width: 629px;
+        }
+        .bora{
+            padding-right: 61px;
+        }
+        .add1{
+            display: block;
+        }
+        .p11 img{
+            height: 212px;
+        }
+        .substract{
+            margin-left: 110px;
+        }
+        .add2{
+            margin-left: 140px;
+        }
+        .b2{
+            width: auto;
+        }
+        .grass{
+            width: auto;
+        }
+        .g img{
+            width: 235px;
+        }
+        .anim{
+            width: auto;
+            padding-left: 65px;
+        }
+        .thousand,.satisfied,.mary2,.lane{
+            padding-right: 0px;
+        }
+        .social img,.social3 img{
+            width: 308px;
+        }
+        .protection{
+            width: 270px;
+        }
+        .protection3{
+            width: 340px;
+        }
+        }
+@media only screen and (max-width : 1024px)
+
+    {
+        {   
+            display: none;
+        }
+        .questions{
+            position: fixed;
+            margin-top: 200px;
+            width: 870px;
+        }
+        .questions2{
+            width: auto;
+        }
+        .questions3 i{
+            margin-left: 570px;
+        }
+        .questions{
+            position: relative;
+            margin-left: -890px;
+        }
+        .about{
+            padding-top: 480px;
+        }
+        .aboutus{
+            display: block;
+        }
+        .healthy{
+            width: 850px;
+        }
+        .about3{
+            padding-top: 50px;
+            padding-left: 106px;
+        }
+        .we{
+            width: 800px;
+        }
+        .our{
+            width: 800px;
+        }
+        .industry{
+            width: 943px;
+            margin-left: 54px;
+            padding-top: 300px;
+        }
+        .wheatimg img{
+            width: 806px;
+        }
+        .dalmer{
+            justify-content: left;
+            margin-left: 40px;
+        }
+        .bora{
+            margin-left: 580px;
+            text-align: justify;
+        }
+        .nikhilll{
+         position: absolute;
+         top: 762px;   
+         right: 136px;
+        }
+        .add1{
+            display: block;
+        }
+        .p11 img{
+            height: 199px;
+        }
+        .each{
+            padding-left: 114px;
+        }
+        .items{
+            padding-left: 97px;
+        }
+        .substract{
+            margin-left: 86px;
+        }
+        .add2{
+            margin-left: 116px;
+        }
+        .bad{
+            display: block;
+        }
+        .g img{
+            width: 54px;
+        }
+        .grass{
+            width: auto
+        }
+        .anim{
+            width: auto;
+            padding-left: 49px;
+        }
+        
+        .mary2,.lane,.satisfied,.thousand{
+            padding-right: 0px;
+        }
+        .social3{
+            display: none;
+        }
+        .nikhil{
+            display: block;
+        }
+        .khil{
+            display: block;
+        }
+        .hhh{
+            margin-left: 14px;
+        }
+        .hhhh{
+            margin-left: -45px;
+        }
+        .hhhhh{
+            margin-top: 28px;
+        } 
+    }
+@media only screen and (max-width : 376px){
+    .navvv
+    {
+        display: none;
+    }
+    .nav2 {
+        align-items: center;
+    }
+    .navigation .nav1{
+       display: none;
+    }
+    .navigation .nav2{
+        font-size: 12px;
+    }
+    .nav2 .cart{
+        width: 100px;
+    }
+    
+    .navv {
+        width: 375px;
+    }
+    .navv .navv1{
+        margin-left: 70px;
+    }
+    .navv .navv2{
+        display: none;
+    }
+    .oooo .wowrice{
+    }
+    .oooo .questions{
+        width: 300px;
+    }
+    .vegetables .vegetables2{
+        font-size: 30px;
+    }
+    .preview{
+        height: 700px;
+    }
+    .carousel-inner, .carousel-item, .img, .slide1, .img2{
+        height: 100%;
+    }
+    .wowrice{
+        display: block;
+        position: static;
+    }
+    .oooo{
+        position: static;
+    }
+    .aboutus{
+        display: block;
+    }
+    .healthy{
+        width: 300px;
+        font-size: 30px;
+    }
+    .about3{
+      padding-top: 0%;
+      padding-left: 0%;
+    }
+    .healthy h3{
+        font-size: 30px;
+    }
+    .we{
+        width: 348px;
+        padding-left: 90px;
+        padding-top: 30px;
+    }
+    .our{
+        width: 350px;
+        padding-left: 90px;
+    }
+    .more{
+        margin-left: 90px;
+    }
+    .wheatimg img{
+        height: 441px;
+        width: 294px;
+    }
+    .industry{
+        width: 300px;
+        font-size: 17px;
+        padding-top: 330px;
+        margin-left: 50px;
+    }
+    .bora img{
+        text-align: left;
+        width: 100%;
+    }
+    .dalmer{
+        justify-content: left;
+    }
+    .nikhilll{
+        position: static;
+    }
+    .type{
+        text-align: left;
+    }
+    .ours{
+        text-align: left;
+    }
+    .one{
+        width: 300px;
+    }
+    .pp{
+        display: block;
+    }
+    .bad2{
+        display: block;
+    }
+    .bad{
+        display: block;
+    }
+    .any{
+        width: auto;
+    }
+    .always{
+        width: auto;
+    }
+    .b2{
+        width: auto;
+    }
+    .objective{
+        height: 0%;
+    }
+    .agriculture{
+        position: static;
+    }
+    .questions2{
+        width: auto;
+    }
+    .g{
+        display: none;
+    }
+    .ll{
+        display: block;
+    }
+    .grass{
+        margin-left: 0px;
+    }
+    .firstname2{
+        padding-left: 10px;
+    }
+    .secondname2{
+        padding-left: 10px;
+    }
+    .feed3 input{
+        height:250px ;
+        width: 250px;
+    }
+    .feed4 input{
+        height:50px ;
+        width: 250px;
+    }
+    .anim{
+        width: 300px;
+        padding-left: 20px;
+    }
+    .grass{
+        width: 1px;
+    }
+    .integrating{
+        display: block;
+    }
+    .social{
+        padding-left: 0px;
+    }
+    .social img{
+        width: 370px;
+    }
+    .strengthen{
+        width: auto;
+    }
+    .protection3{
+        width: 300px;
+    }
+    .nikhil{
+        display: block;
+    }
+    .khil{
+        display: block;
+    } 
+    .navvv{
+        display: none;
+    }
+    .tem3{
+        display: none;
+    }
+    .hhh{
+        margin-left: auto;
+        width: auto;
+    }
+    .hhh h3{
+     font-size: 35px;
+    }
+    .hhhh{
+    width: 300px;
+    margin-left: auto;
+    }
+    .hhhhh{
+        margin-top: 10px;
+    }
+        
+}
